@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+/*Reset*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-grey{
+    background-color: rgb(232 228 228);
+}
+
+/*Logo*/
+.logo img{
+    width: 58px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.w-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Navbar*/
+.navbar{
+    display: flex;
+    background-color: #343a40;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.n-link{
+    text-decoration: none;
+    color: #9a9da0;
+    padding: 0px 20px;
+    font-size: 19px;
+}
+
+.n-link:hover{
+    color: rgb(192, 187, 187);
+}
+
+/*Welcome*/
+.para{
+    width: 47%;
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title{
+    padding: 13px 0px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.welcome{
+    margin: 42px 0px;
+}
+
+/*Buttons Group of Welcome*/
+.btn-group{
+    padding: 10px 0px;
+    margin: 12px 0px;
+}
+
+.btn-group a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+#btn1{
+    background-color: rgb(233, 50, 50);
+}
+#btn2{
+    background-color: rgb(66, 233, 66);
+}
+#btn3{
+    background-color: rgb(50, 199, 199);
+}
+
+/*Some information*/
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    margin: 0px 25%;
+    align-items: center;
+    padding: 2px 0px;
+    padding: 28px 0px;
+}
+
+#box-2{
+    flex-direction: row-reverse;
+}
+
+#box-2 img{
+    padding-right: 18px;
+}
+
+
+/*Cards*/
+.container{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 30px;
+    margin: 0px 10px;
+}
+
+.card a{
+    text-decoration: none;
+    color: white;
+    background-color: #343a40;
+    padding: 12px;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+.card a:hover{
+    opacity: 0.8;
+}
+
+/*Footer*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343a40;
+    color: #9a9da0;
+    margin-top: 10px;
+}
+
+.copy{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.copy:hover{
+    color: rgb(192, 187, 187);
+}

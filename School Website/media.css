@@ -1,0 +1,36 @@
+@media only screen and (max-width: 923px){
+    .container{
+        flex-direction: column;
+        background-color: whitesmoke;
+    }
+    .card{
+        border: 0px solid black;
+    }
+}
+
+@media only screen and (max-width: 591px){
+    .box{
+        flex-direction: column-reverse;
+    }
+    #box-2{
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 459px){
+    .n-link{
+        font-size: 12px;
+    }
+    .copy{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .n-link{
+        font-size: 8px;
+    }
+    .copy{
+        font-size: 10px;
+    }
+}
