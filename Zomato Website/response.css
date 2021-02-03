@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1096px){
+    .s-text p {
+        font-size: 32px;
+    }
+    .head{
+        background: gray;
+    }
+    .foot{
+        background: gray;
+    }
+}
+
+@media only screen and (max-width: 636px){
+    .s-text p{
+        font-size: 16px;
+    }
+    .h-text a{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+    #wonders a{
+        font-size: 17px;
+    }
+    .feed{
+        padding: 21px 24%;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 444px){
+    .h-text a{
+        font-size: 17px;
+    }
+    .card{
+        flex-direction: column;
+    }
+}
